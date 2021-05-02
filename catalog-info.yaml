@@ -1,0 +1,12 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: "test-deleteme-backstage-app"
+  description: "app created in backstage for testing"
+  annotations:
+    github.com/project-slug: jeremy-cianella-nee/test-backstage-deleteme
+    backstage.io/techdocs-ref: url:https://github.com/jeremy-cianella-nee/test-backstage-deleteme
+spec:
+  type: documentation
+  lifecycle: experimental
+  owner: "jeremy-cianella-nee"

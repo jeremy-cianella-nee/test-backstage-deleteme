@@ -1,0 +1,8 @@
+site_name: "test-deleteme-backstage-app"
+site_description: "app created in backstage for testing"
+
+nav:
+  - Introduction: index.md
+
+plugins:
+  - techdocs-core
